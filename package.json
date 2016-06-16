@@ -1,0 +1,34 @@
+{
+  "name": "tfk-saksbehandling-skoleskyss-waypoints",
+  "version": "1.0.0",
+  "description": "Check for duplicates",
+  "license": "MIT",
+  "author": {
+    "name": "Geir Gåsodden",
+    "email": "geir.gasodden@pythonia.no",
+    "url": "https://github.com/zrrrzzt"
+  },
+  "bugs": {
+    "url": "https://github.com/telemark/tfk-saksbehandling-skoleskyss-waypoints/issues"
+  },
+  "homepage": "https://github.com/telemark/tfk-saksbehandling-skoleskyss-waypoints",
+  "main": "service.js",
+  "engines": {
+    "node": ">=4.4.5"
+  },
+  "scripts": {
+    "test": "standard && tap --reporter=spec test/*.js",
+    "coverage": "tap test/*.js --coverage",
+    "coveralls": "tap --cov --coverage-report=lcov test/*.js && cat coverage/lcov.info | coveralls",
+    "setup": "npm install && node setup.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/telemark/tfk-seneca-skoleskyss-duplicate"
+  },
+  "devDependencies": {
+    "coveralls": "2.11.9",
+    "standard": "7.1.2",
+    "tap": "5.7.2"
+  }
+}
