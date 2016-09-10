@@ -1,6 +1,6 @@
 {
   "name": "tfk-saksbehandling-skoleskyss-waypoints",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Get an array of waypoints for selected addresses",
   "license": "MIT",
   "author": {
@@ -20,7 +20,8 @@
     "test": "standard && nsp check && tap --reporter=spec test/*.js",
     "coverage": "tap test/*.js --coverage",
     "coveralls": "tap --cov --coverage-report=lcov test/*.js && cat coverage/lcov.info | coveralls",
-    "setup": "npm install && node setup.js"
+    "setup": "npm install && node setup.js",
+    "standard-fix": "standard --fix"
   },
   "repository": {
     "type": "git",
