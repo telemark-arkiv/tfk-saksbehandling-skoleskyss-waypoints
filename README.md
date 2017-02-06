@@ -2,6 +2,8 @@
 [![Coverage Status](https://coveralls.io/repos/telemark/tfk-saksbehandling-skoleskyss-waypoints/badge.svg?branch=master&service=github)](https://coveralls.io/github/telemark/tfk-saksbehandling-skoleskyss-waypoints?branch=master)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 # tfk-skoleskyss-saksbehandling-waypoints
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/tfk-saksbehandling-skoleskyss-waypoints.svg)](https://greenkeeper.io/)
 Returns an array of waypoints for some addresses
 
 ## Usage
