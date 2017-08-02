@@ -1,6 +1,6 @@
 {
   "name": "tfk-saksbehandling-skoleskyss-waypoints",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "Get an array of waypoints for selected addresses",
   "license": "MIT",
   "author": {
